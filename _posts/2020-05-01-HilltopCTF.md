@@ -3,6 +3,7 @@ layout: post
 title: "What is the Deadly Bug Here?"
 date: 2020-05-01
 categories: CTF
+permalink: /HilltopCTF
 ---
 HilltopCTF - What Is The Deadly Bug Here?
 
