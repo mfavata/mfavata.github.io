@@ -1,3 +1,7 @@
+layout: post
+title: "What is the Deadly Bug Here?"
+date: 2020-05-01
+categories: CTF
 ---===/// HilltopCTF - What Is The Deadly Bug Here? ///===---
 
 CTF Description: Some times ago I stumbled upon a guy who is famous in YouTube,
