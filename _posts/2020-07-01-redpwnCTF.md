@@ -7,15 +7,10 @@ permalink: /redpwnCTF
 ---
 redpwnCTF - Bubbly
 
-I was given a reverse engineering tutorial by teammate reloc for this challenge. I did not keep my
-specific notes during the tutorial, as I was trying to follow along and learn what was going on. I
-kept the challenge file and after waiting two weeks after the CTF ended, let's see what I can remember
-about using gdb. The following differs a lot from what we did that first night we solved this. Reloc
-rewrote a portion of the program in python as we went along so that he could show me what was going on
-with the assembly code. I am not that good at coding and will be using a simpler method of setting
-a breakpoint in a for loop to examine what changes are happening as we go along.
+I was given a reverse engineering tutorial by teammate reloc for this challenge. I did not keep my specific notes during the tutorial, as I was trying to follow along and learn what was going on. I kept the challenge file and after waiting two weeks after the CTF ended, let's see what I can remember about using gdb. The following differs a lot from what we did that first night we solved this. Reloc rewrote a portion of the program in python as we went along so that he could show me what was going on with the assembly code. I am not that good at coding and will be using a simpler method of setting a breakpoint in a for loop to examine what changes are happening as we go along.
 
 First, let's run the program to see what we can find out.
+
 ```
 (gdb) run
 Starting program: /root/Downloads/bubbly
@@ -27,8 +22,9 @@ I hate my data structures class! Why can't I just sort by hand?
 Try again!
 [Inferior 1 (process 2577) exited normally]
 ```
-The program is taking a numeric input between 0 and 8, and anything higher exits the function. Let's
-set the syntax to intel and disassemble the main function.
+
+The program is taking a numeric input between 0 and 8, and anything higher exits the function. Let's set the syntax to intel and disassemble the main function.
+
 ```
 (gdb) set disassembly-flavor intel
 (gdb) disass main
@@ -134,17 +130,16 @@ Dump of assembler code for function main:
    0x000055555555537e <+421>:   ret    
 End of assembler dump.
 ```
-The part of the disassembled code that jumps out to me is at <+103>, where we see the scanf function
-listed. That is the area of the program that we are entering our values. The code below that takes our
-input and begins to pull values from an array and swap them around and put them back into the array. The
-program will loop through this function until we enter a number over 8. We can see the
-numbers in the array by using display nums.
+
+The part of the disassembled code that jumps out to me is at <+103>, where we see the scanf function listed. That is the area of the program that we are entering our values. The code below that takes our input and begins to pull values from an array and swap them around and put them back into the array. The program will loop through this function until we enter a number over 8. We can see the numbers in the array by using display nums.
+
 ```
 (gdb) disp nums
 1: nums = {1, 10, 3, 2, 5, 9, 8, 7, 4, 6}
 ```
-If we set a breakpoint before we enter each value, we can see the changes to the array, and enter
-our next value accordingly.
+
+If we set a breakpoint before we enter each value, we can see the changes to the array, and enter our next value accordingly.
+
 ```
 (gdb) break 38
 Breakpoint 3 at 0x55555555522d: file main.c, line 38.
@@ -171,12 +166,9 @@ Breakpoint 3, main () at main.c:38
 1: nums = {1, 3, 2, 10, 5, 9, 8, 7, 4, 6}
 (gdb)
 ```
-You can see after we begin running the program it will break before the input and display the nums
-array to us. We use "c" to continue and then enter our value. The array starts at value 0, so we can use
-the values 0-8 to swap all of the values in the array. From this point there are a lot of ways you can
-go about this, but the final goal is to have all the values in order. Entering a value over 8 enters
-the check to see if they are in order or not. If they are, the program will run the print_flag function
-and give us the flag.
+
+You can see after we begin running the program it will break before the input and display the nums array to us. We use "c" to continue and then enter our value. The array starts at value 0, so we can use the values 0-8 to swap all of the values in the array. From this point there are a lot of ways you can go about this, but the final goal is to have all the values in order. Entering a value over 8 enters the check to see if they are in order or not. If they are, the program will run the print_flag function and give us the flag.
+
 ```
 Breakpoint 3, main () at main.c:38
 38  	in main.c
@@ -196,8 +188,9 @@ Well done!
 cat: flag.txt: No such file or directory
 [Inferior 1 (process 2621) exited normally]
 ```
-As long as we take note of the order that we used to solve it, all we have to do is netcat over
-to their server and enter the same string of digits. I used the following: 1 2 3 4 5 6 7 8 4 5 6 7 1 4 5 6 4 5 3
+
+As long as we take note of the order that we used to solve it, all we have to do is netcat over to their server and enter the same string of digits. I used the following: 1 2 3 4 5 6 7 8 4 5 6 7 1 4 5 6 4 5 3
+
 ```
 $ nc 2020.redpwnc.tf 31039
 I hate my data structures class! Why can't I just sort by hand?
@@ -224,5 +217,5 @@ I hate my data structures class! Why can't I just sort by hand?
 Well done!
 Flag{4ft3r_y0u_put_u54c0_0n_y0ur_c011ege_4pp5_y0u_5t1ll_h4ve_t0_d0_th15_57uff}
 ```
-This challenge was a fantastic introduction to reverse engineering and gdb. I cannot thank Reloc enough
-for his assistance and I can't wait for my next opportunity to learn some more reverse engineering.
+
+This challenge was a fantastic introduction to reverse engineering and gdb. I cannot thank Reloc enough for his assistance and I can't wait for my next opportunity to learn some more reverse engineering.
