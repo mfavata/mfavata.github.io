@@ -5,7 +5,7 @@ date: 2020-07-01
 categories: CTF
 permalink: /redpwnCTF
 ---
-redpwnCTF - Bubbly
+## redpwnCTF - Bubbly
 
 I was given a reverse engineering tutorial by teammate reloc for this challenge. I did not keep my specific notes during the tutorial, as I was trying to follow along and learn what was going on. I kept the challenge file and after waiting two weeks after the CTF ended, let's see what I can remember about using gdb. The following differs a lot from what we did that first night we solved this. Reloc rewrote a portion of the program in python as we went along so that he could show me what was going on with the assembly code. I am not that good at coding and will be using a simpler method of setting a breakpoint in a for loop to examine what changes are happening as we go along.
 
