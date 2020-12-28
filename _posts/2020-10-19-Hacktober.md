@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hacktober 2020 CTF - Red Rum"
-date: 2020-10-08
+date: 2020-10-19
 categories: CTF
 permalink: /Hacktober
 ---
