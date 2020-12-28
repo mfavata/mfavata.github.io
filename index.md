@@ -1,3 +1,9 @@
+---
+title: xfavatax
+layout: home
+permalink: /
+---
+
 Hi, I'm Mark.
 
 I've coded and hacked for a while as a hobby, but never truly considered infosec as a career
