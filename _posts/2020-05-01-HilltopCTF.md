@@ -5,7 +5,7 @@ date: 2020-05-01
 categories: CTF
 permalink: /HilltopCTF
 ---
-HilltopCTF - What Is The Deadly Bug Here?
+## HilltopCTF - What Is The Deadly Bug Here?
 
 CTF Description: Some times ago I stumbled upon a guy who is famous in YouTube, and I subscribed him! I think he is very passionate and thoughtful about security things, and one day, he uploaded a video with title: "Let's play a game: what is the deadly bug here?." I was very amazed back then. But, that video made me think: I can't just stop with knowing the bug, I need to do better! I have to patch the code. And here I am, I patched the code and it is bug-proof.
 
