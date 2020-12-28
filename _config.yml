@@ -9,4 +9,4 @@ style: dark
 
 footer: 'follow us on <a href="https://twitter.com/xfavatax">twitter</a>'
 
-theme: jekyll-theme-console
+remote_theme: mfavata/jekyll-theme-console
