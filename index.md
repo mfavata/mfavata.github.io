@@ -1,7 +1,6 @@
 ---
 title: xfavatax
 layout: home
-permalink: /
 ---
 
 Hi, I'm Mark.
