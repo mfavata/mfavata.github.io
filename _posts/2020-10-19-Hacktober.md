@@ -5,7 +5,7 @@ date: 2020-10-19
 categories: CTF
 permalink: /Hacktober
 ---
-##Hacktober 2020 CTF - Red Rum
+## Hacktober 2020 CTF - Red Rum
 
 We want you to infiltrate DEADFACE as a programmer. Thing is, they're picky about who they bring in. They want to make sure you're the real deal when it comes to programming. Generate a list of numbers 1-500. For each number divisible by 3, replace it with Red; for each number divisible by 5, replace it with Rum. For numbers divisible by both 3 AND 5, replace it with RedRum.
 
