@@ -7,6 +7,6 @@ header_pages:
 
 style: dark
 
-footer: 'follow us on <a href="https://twitter.com/xfavatax">twitter</a>'
+footer: 'follow me on <a href="https://twitter.com/xfavatax">twitter</a>'
 
 remote_theme: mfavata/jekyll-theme-console
