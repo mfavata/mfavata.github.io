@@ -6,7 +6,9 @@ categories: Training
 permalink: /RangeForce
 ---
 
-Over the holidays I was lucky enough to be one of the winners of a BattlePath giveaway from [RangeForce](https://www.rangeforce.com). I have tweeted about them quite a bit and have recieved a lot of messages asking for more information on the platform and what I think about it. I want to do a quick run down of what is covered in the SOC 1 BattlePath and how I feel after having taken it. **TL;DR** - RangeForce is great platform and I recommend you at least register a community edition account and check it out for yourself.
+Over the holidays I was lucky enough to be one of the winners of a BattlePath giveaway from [RangeForce](https://www.rangeforce.com). I have tweeted about them quite a bit and have recieved a lot of messages asking for more information on the platform and what I think about it. I want to do a quick run down of what is covered in the SOC 1 BattlePath and how I feel after having taken it.
+
+**TL;DR** - RangeForce is great platform and I recommend you at least register a community edition account and check it out for yourself.
 
 First, a little about the platform. RangeForce descibe themselves as "a scalable cloud-based platform providing hands-on measurable simulation training for cybersecurity and IT operations professionals." They describe their BattlePaths as "hands-on training, job-related challenges, and a capstone exercise in our highly realistic, cloud-based cyber range. The skills learned are all real – featuring real IT infrastructure, using real security tools, and battling real cyberattacks." When you launch one of their modules, you'll be placed into a browser-based VM running either Linux or Windows, with all of the tools available that you need for that particular lesson/challenge.
 
