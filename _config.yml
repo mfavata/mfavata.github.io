@@ -6,6 +6,6 @@ header_pages:
 
 style: dark
 
-footer: '<a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi?before=https://mfavata.github.io/">back</a> this site is part of the <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi">[haunted webring]</a> <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi?after=https://mfavata.github.io/">next</a> follow me on <a href="https://haunted.computer/@xfavatax">mastodon</a>'
+footer: '<a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi?before=https://mfavata.github.io/">&lt;&lt;&lt;</a> this site is part of the <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi">[haunted webring]</a> <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi?after=https://mfavata.github.io/">&gt;&gt;&gt;</a><br>follow me on <a href="https://haunted.computer/@xfavatax">mastodon</a>'
 
 remote_theme: mfavata/jekyll-theme-console
