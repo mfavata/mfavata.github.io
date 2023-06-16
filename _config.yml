@@ -6,6 +6,6 @@ header_pages:
 
 style: dark
 
-footer: 'this site is part of the <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi">[haunted webring]</a>: <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi?before=https://mfavata.github.io/">&lt;&lt;&lt;</a> <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi?random=https://mfavata.github.io/">random</a>  <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi?after=https://mfavata.github.io/">&gt;&gt;&gt;</a><br>follow me on <a href="https://haunted.computer/@xfavatax" rel=me>mastodon</a>'
+footer: 'this site is part of the <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi">[haunted webring]</a>: <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi?before=https://mfavata.github.io/">&lt;&lt;&lt;</a> <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi?random=https://mfavata.github.io/">random</a>  <a href="https://pixeldreams.tokyo/cgi-bin/webring.cgi?after=https://mfavata.github.io/">&gt;&gt;&gt;</a><br>follow me on <a href="https://haunted.computer/@xfavatax" rel=me>mastodon</a> <a href="https://github.com/mfavata">github</a>'
 
 remote_theme: mfavata/jekyll-theme-console
