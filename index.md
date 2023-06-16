@@ -7,9 +7,9 @@ layout: home
 ╚██╗██╔╝██╔════╝██╔══██╗██║░░░██║██╔══██╗╚══██╔══╝██╔══██╗╚██╗██╔╝
 ░╚███╔╝░█████╗░░███████║╚██╗░██╔╝███████║░░░██║░░░███████║░╚███╔╝░
 ░██╔██╗░██╔══╝░░██╔══██║░╚████╔╝░██╔══██║░░░██║░░░██╔══██║░██╔██╗░
-██╔╝╚██╗██║░░░░░██║░░██║░░╚██╔╝░░██║░░██║██╗██║░░░██║░░██║██╔╝╚██╗
-╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝
+██╔╝╚██╗██║░░░░░██║░░██║░░╚██╔╝░░██║░░██║░░░██║░░░██║░░██║██╔╝╚██╗
+╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝
 </div>
 Hi, I'm Mark.
 
-I've coded and hacked for a while as a hobby, and am currently working as a SOC Analyst. Network+ and Splunk Core Power User certified. This is a dumping ground for CTF write-ups and various other things as time goes on.
+I'm a SOC Analyst and budding detection engineer. Network+ and Splunk Core Power User certified. This is a dumping ground for CTF write-ups and various other things write-ups as time goes on.
